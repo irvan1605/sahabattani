@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Toko Online - Jualan Produk</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .product-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .product {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            width: 30%;
+            margin-bottom: 20px;
+            padding: 15px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .product img {
+            max-width: 100%;
+            height: auto;
+        }
+        .product h3 {
+            color: #333;
+        }
+        .product p {
+            color: #666;
+        }
+        .product .price {
+            font-size: 1.2em;
+            color: #e74c3c;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+        .product button {
+            background-color: #3498db;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .product button:hover {
+            background-color: #2980b9;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: #fff;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Selamat Datang di Toko Online Kami</h1>
+        <p>Temukan berbagai produk menarik di sini</p>
+    </header>
+
+    <div class="container">
+        <h2>Produk Terbaru</h2>
+        <div class="product-list">
+            <div class="product">
+                <img src="produk1.jpg" alt="Produk 1">
+                <h3>Produk 1</h3>
+                <p>Deskripsi singkat produk 1</p>
+                <p class="price">Rp 100.000</p>
+                <button>Tambah ke Keranjang</button>
+            </div>
+
+            <div class="product">
+                <img src="produk2.jpg" alt="Produk 2">
+                <h3>Produk 2</h3>
+                <p>Deskripsi singkat produk 2</p>
+                <p class="price">Rp 150.000</p>
+                <button>Tambah ke Keranjang</button>
+            </div>
+
+            <div class="product">
+                <img src="produk3.jpg" alt="Produk 3">
+                <h3>Produk 3</h3>
+                <p>Deskripsi singkat produk 3</p>
+                <p class="price">Rp 200.000</p>
+                <button>Tambah ke Keranjang</button>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Toko Online Kami. Semua Hak Cipta Dilindungi.</p>
+    </footer>
+</body>
+</html>
